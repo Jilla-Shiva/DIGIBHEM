@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Calculator using JS</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- Calculator frame-->
+	<div class="calculator">
+		<p>Calculator</p>
+		<!--screen-->
+		<div class="screen">
+			<p id="mini"></p><!--display order of operation-->
+			<p id="main">0</p>
+		</div>
+		<!--buttons-->
+		<div class="buttons">
+			<div class="layer">
+				<div class="special button">C</div>
+				<div class="special backspace button"><<</div>
+			</div>
+
+			<div class="layer">
+				<div class="button">7</div>
+				<div class="button">8</div>
+				<div class="button">9</div>
+				<div class="button">/</div>
+			</div>
+
+			<div class="layer">
+				<div class="button">4</div>
+				<div class="button">5</div>
+				<div class="button">6</div>
+				<div class="button">x</div>
+			</div>
+
+			<div class="layer">
+				<div class="button">1</div>
+				<div class="button">2</div>
+				<div class="button">3</div>
+				<div class="button">-</div>
+			</div>
+
+			<div class="layer">
+				<div class="button">0</div>
+				<div class="button">.</div>
+				<div class="special button">=</div>
+				<div class="button">+</div>
+			</div>
+			
+		</div>
+		
+	</div>
+
+
+
+	
+
+	<!-- a library to take care of floats and calculation-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/decimal.js/7.1.1/decimal.min.js"></script>
+
+	<script type="text/javascript" src="script.js"></script>
+	
+</body>
+</html>
